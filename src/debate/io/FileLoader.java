@@ -1,3 +1,4 @@
+package debate.io;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -14,7 +15,7 @@ import me.mark.debate.Debater;
 public class FileLoader
 {
 	// Loading from CSV. "<School Name>", "<Debater Name>", "<Total Score>"
-	// Delimeter is a comma for each item per row
+	// Delimiter is a comma for each item per row
 	public static HashMap<String, ArrayList<Debater>> loadFromFile(String fileName) throws IOException
 	{
 		HashMap<String, ArrayList<Debater>> resultMap = new HashMap<String, ArrayList<Debater>>();
